@@ -11,4 +11,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'ng-17-flow';
+  user = {
+    name:'Jack',
+    isHuman:false,
+    isRobot:true
+
+  }
 }
